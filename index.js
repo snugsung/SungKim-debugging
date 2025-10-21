@@ -77,6 +77,8 @@ function setup() {
   // Reset number of attempts
   attempts = 0;
 
+  guessInput.value = '';
+
   // Enable the input and submit button
   submitButton.disabled = false;
   guessInput.disabled = false;
