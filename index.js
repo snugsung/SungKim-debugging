@@ -53,6 +53,7 @@ function checkGuess() {
   }
 
   if (attempts === maxNumberOfAttempts) {
+    maxGuessesMessage.style.display = '';
     submitButton.disabled = true;
     guessInput.disabled = true;
   }
